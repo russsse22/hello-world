@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/backg.jpg);
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(23, 117, 160);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(32, 138, 165);
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(25, 136, 163);
+    text-align: center;
+}
+
+.detel{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.detel h1{
+    font-size: 20px;
+    color: black;
+    font-weight: 500%;
+    line-height: 50px;
+}
+
+.images{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    top: 24%;
+    left: 20%;
+}
+
+.images img{    
+    width: 400px;
+    height: 400px;
+}
